@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Responsive Navbar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <!-- Font Awesome Link for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+  <nav>
+    <!-- Checkbox for toggling menu -->
+    <input type="checkbox" id="check">
+
+    <!-- Menu icon -->
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+
+    <!-- Site logo -->
+    <label class="logo"> <img class="logo-img" src="images/Group 40071 (2).png" alt=""> <span class="hero">Hero</span> Travel</label>
+
+    <!-- Navigation links -->
+    <ul>
+      <li><a class="active" href="#">Home</a></li>
+      <li><a href="#">Packages</a></li>
+      <li><a href="#">Testimonials</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Section for image -->
+  <section class="banner-section">
+    <h1 class="banner-title">
+        Explore Your Travel
+    </h1>
+    <p class="banner-description">
+        Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.
+    </p>
+    <div class="banner-content">
+        <input type="search" placeholder="Where">
+        <select>
+            <option disabled selected class="main-select">When</option>
+            <option value="1">Today</option>
+            <option value="2">Tomorrow</option>
+            <option value="3">Next Week</option>
+        </select>
+        <select name="" id="">
+            <option disabled selected class="main-select">Select Type</option>
+            <option value="1">Short Tour(1 day)</option>
+            <option value="2">Long Tour(3 day)</option>
+            <option value="3">Foreign Tour</option>
+        </select>
+    </div>
+  </section>
+</body>
+
+</html>
