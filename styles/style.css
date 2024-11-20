@@ -9,7 +9,6 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
     text-decoration: none;
-    list-style: none;
     box-sizing: border-box;
 }
 
@@ -123,6 +122,87 @@ a.active,a:hover{
     color: white;
 }
 
+/* Popular section all styles  */
+.popular-section{
+    display: flex;
+    gap: 100px;
+    padding: 50px;
+}
+.popular-content ul{
+    margin-left: 50px;
+    margin-bottom: 35px;
+}
+.popular-title{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+.popular-description{
+    font-size: 20px;
+    margin-bottom: 35px;
+    color: rgb(68, 66, 66);
+}
+.popular-content ul li{
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: rgb(68, 66, 66);
+}
+.read-more-btn{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 13px 18px;
+    border-radius: 5px;
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+
+
+/* Destination  */
+.destination{
+    padding: 50px;
+    text-align: center;
+}
+.destination-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.destination-description{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.destination-img .first{
+    grid-area: first;
+}
+.destination-img .second{
+    grid-area: second;
+}
+.destination-img .third{
+    grid-area: third;
+}
+.destination-img .fourth{
+    grid-area: fourth;
+}
+.destination-img .fifth{
+    grid-area: fifth;
+}
+.destination-img .sixth{
+    grid-area: sixth;
+}
+.destination-img .seventh{
+    grid-area: seventh;
+}
+
+/* .destination-img{
+    display: grid;
+    grid-template-areas: 
+    "first first first second second second"
+    "third third fourth fourth fourth fifth fifth"
+    "sixth sixth seventh seventh seventh seventh"
+    ;
+} */
 
 @media screen and (max-width: 992px){
     label.logo{
@@ -175,7 +255,7 @@ a.active,a:hover{
         margin-top: 50px;
     }
     .banner-title{
-        font-size: 35px;
+        font-size: 25px;
         padding: 0px;
         margin-bottom: 0;
     }
@@ -189,15 +269,25 @@ a.active,a:hover{
         padding: 20px;
     }
     .select-tour{
-        width: 100%;
+        width: 50%;
     }
     .banner-container input,select,.btn{
-        width: 100%;
+        width: 80%;
     }
     .select-tour{
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 20px;
+    }
+
+
+    /* Popular section Responsive  */
+    .popular-section{
+        flex-direction: column;
+        pad: 20px;
+    }
+    .popular-img img{
+        width: 90%;
     }
 }
