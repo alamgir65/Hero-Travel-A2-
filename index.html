@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/style.css">
   <!-- Font Awesome Link for Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -32,32 +32,33 @@
       <li><a href="#">Contact</a></li>
     </ul>
   </nav>
-
-  <!-- Section for image -->
-  <section class="banner-section">
-    <h1 class="banner-title">
-        Explore Your Travel
-    </h1>
-    <p class="banner-description">
-        Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.
-    </p>
-    <div class="banner-content">
-        <input type="search" placeholder="Where">
+  <!-- Banner section  -->
+   <div class="banner-section">
+    <div class="banner-container">
+      <div class="banner-first">
+        <h1 class="banner-title">Explore Your Travel</h1>
+      <p class="banner-description">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+      
+      </div>
+      <div class="select-tour">
+        <input type="text" name="" id="" placeholder="Where">
         <select>
-            <option disabled selected class="main-select">When</option>
-            <option value="1">Today</option>
-            <option value="2">Tomorrow</option>
-            <option value="3">Next Week</option>
+          <option disabled selected>When</option>
+          <option value="1">Today</option>
+          <option value="2">Tommorow</option>
+          <option value="1">Next Week</option>
         </select>
-        <select name="" id="">
-            <option disabled selected class="main-select">Select Type</option>
-            <option value="1">Short Tour(1 day)</option>
-            <option value="2">Long Tour(3 day)</option>
-            <option value="3">Foreign Tour</option>
+        <select>
+          <option disabled selected>Select Type</option>
+          <option value="1">Short Tour</option>
+          <option value="2">Mini (3days)</option>
+          <option value="1">Long (15days)</option>
         </select>
+        <div class="btn"><i class="fa-solid fa-magnifying-glass"></i> <a href="#">Find Now</a></div>
+      </div>
     </div>
-  </section>
-  <section></section>
+   </div>
+  <!-- Section for image -->
 </body>
 
 </html>
